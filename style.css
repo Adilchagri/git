@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(196, 196, 193);
+}
+.madiv{
+width: 200px;
+height: 238px;
+border:2px solid rgb(3, 161, 108);
+box-shadow: 1px 1px 3px 3px aqua;
+margin-top: 10px;
+grid-column: span 1;
+margin-left: 50px;
+}
+.container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+width: 70%;
+height: 40%;
+border: 2px solid black;
+background-color: rgb(245, 245, 241);
+border-radius: 5px;
+overflow: scroll;
+}
+.madiv h5{
+text-align: center;
+}
+.img1{
+border:2px solid aqua;
+box-shadow:  2px 1px aqua;
+width: 185px;
+border-radius: 7px;
+margin-left: 5px;
+}
+.img1 img{
+width: 140px;
+}
+.img1 h3{
+background-color: red;
+width: max-content;
+position: relative;
+left: 70%;
+color: white;
+border-radius: 7px;
+font-size: 16px;
+
+
+}
+.comments1{
+display: flex;
+}
+.comments1 p{
+border:1px solid aqua;
+box-shadow:  2px 1px aqua;
+border-radius: 7px;
+width: max-content;
+height: 60px;
+}
+input{
+margin-top: 10px;
+width: 30px;
+}
+.title{
+border: 2px solid black;
+border-radius: 5px;
+margin-bottom: 10px;
+background-color: rgb(245, 245, 241);
+}
+.middle{
+display: flex;
+}
+#search{
+width: 80%;
+height: 40px;
+margin-left: 10px;
+border-radius: 10px;
+}
+.pannier{
+border: 2px solid black;
+border-radius: 5px;
+margin-left: 10px;
+width: 30%;
+background-color: rgb(245, 245, 241);
+}
